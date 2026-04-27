@@ -1,0 +1,10 @@
+import "node:module";
+import tailwindcss from "@tailwindcss/vite";
+import react from "@vitejs/plugin-react";
+import { defineConfig } from "vite";
+import.meta.url;
+var vite_config_default = defineConfig({ plugins: [react(), tailwindcss()] });
+//#endregion
+export { vite_config_default as default };
+
+//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoidml0ZS5jb25maWcuanMiLCJuYW1lcyI6W10sInNvdXJjZXMiOlsiL1VzZXJzL2RpcDNzaC9Eb2N1bWVudHMvY29tcG9uZW50LXRlbXBsYXRlL3ZpdGUuY29uZmlnLnRzIl0sInNvdXJjZXNDb250ZW50IjpbImltcG9ydCB0YWlsd2luZGNzcyBmcm9tIFwiQHRhaWx3aW5kY3NzL3ZpdGVcIjtcbmltcG9ydCByZWFjdCBmcm9tIFwiQHZpdGVqcy9wbHVnaW4tcmVhY3RcIjtcbmltcG9ydCB7IGRlZmluZUNvbmZpZyB9IGZyb20gXCJ2aXRlXCI7XG5cbmV4cG9ydCBkZWZhdWx0IGRlZmluZUNvbmZpZyh7XG5cdHBsdWdpbnM6IFtyZWFjdCgpLCB0YWlsd2luZGNzcygpXSxcbn0pO1xuIl0sIm1hcHBpbmdzIjoiOzs7OztBQUlBLElBQUEsc0JBQWUsYUFBYSxFQUMzQixTQUFTLENBQUMsT0FBTyxFQUFFLGFBQWEsQ0FBQyxFQUNqQyxDQUFDIn0=
